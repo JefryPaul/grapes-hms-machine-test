@@ -58,11 +58,14 @@ function Login() {
         <div className="min-h-screen flex">
 
 
-            <div className="w-1/2 bg-gray-50 p-10 flex flex-col justify-between">
-                <div>
-                    <img src={logo} alt="logo" className="w-40 mb-10" />
-                    <h1 className="text-3xl font-semibold">Welcome, to <span className="text-purple-600">Grapes HMS</span></h1>
-                </div>
+            <div className="w-1/2 bg-gray-50 p-10 flex flex-col items-center justify-center text-center">
+                <img src={logo} alt="logo" className="w-40 mb-8" />
+
+                <h1 className="text-3xl font-semibold mb-6">
+                    Welcome, to <span className="text-purple-600">Grapes HMS</span>
+                </h1>
+
+                <img src='https://media.istockphoto.com/id/1318134046/photo/black-stethoscope-isolated-on-white-background-stock-photo.jpg?s=612x612&w=0&k=20&c=i_n4JrCWXlIQ75J80838h7YxRO0kMwTqizFm0U554gc=' alt="Stethoscope" className="w-80 mb-6"/>
 
                 <div className="text-sm text-gray-500">Grapes IDMR</div>
             </div>
